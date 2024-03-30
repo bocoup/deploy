@@ -2,7 +2,7 @@
   hosts: all
   remote_user: deploy
   tasks:
-    - name: Copy prisma migrations
+    - name: Copy app files to server
       copy:
         src: "{{ item.src }}"
         dest: "{{ item.dest }}"
