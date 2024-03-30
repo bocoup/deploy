@@ -61,7 +61,6 @@ cp deploy/inventory.example.yml inventory.yml
 Then change the values in that file to match your project:
 
 ```yml
-Production:
 # Our production server.
 # Copy this whole block if you'd like to add a staging server
 Production:
