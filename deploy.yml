@@ -3,8 +3,9 @@
   remote_user: deploy
   tasks:
     - name: Copy prisma migrations
-      src: "{{ item.src }}"
-      dest: "{{ item.dest }}"
+      copy:
+        src: "{{ item.src }}"
+        dest: "{{ item.dest }}"
       loop: "{{ deploy_files }}"
 
     - name: Install npm deps
