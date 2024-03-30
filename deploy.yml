@@ -23,4 +23,4 @@
         executable: /bin/bash
 
     - name: Start the app with systemd
-      shell: "sudo systemctl start {{ domain }}"
+      shell: "sudo systemctl restart {{ domain }}"
