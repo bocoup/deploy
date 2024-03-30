@@ -176,7 +176,6 @@ We also recommend that you make a deploy command to alias ansible for convenienc
 
 ```json
  "scripts": {
-    ...
     "deploy": "npm run build && ansible-playbook -i inventory.yml deploy/deploy.yml"
   },
 ```
