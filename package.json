@@ -1,0 +1,23 @@
+{
+  "name": "diy-deploy",
+  "version": "0.1.0",
+  "description": "This project includes ansible scripts for locking down and provisioning a node.js server, and deploying something you can npm start to that server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bocoup/deploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "ansible"
+  ],
+  "author": "Bocoup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bocoup/deploy/issues"
+  },
+  "homepage": "https://github.com/bocoup/deploy#readme"
+}
