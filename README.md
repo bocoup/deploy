@@ -42,7 +42,7 @@ Follow the [Ansible Windows Installation Instructions](https://docs.ansible.com/
 
 If you don't have one yet, try a droplet on [digital ocean](https://digitalocean.com/). Something with 1gb of memory should be enough to start you off. Point a domain at that droplet, and replace `privacy-stack-template.com` with that domain in the following instructions. An IP address will work as well.
 
-### Manully copy or submodule this project into your existing node app
+### Manually copy or submodule this project into your existing node app
 
 If you want to use a submodule:
 ```sh
