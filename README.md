@@ -1,6 +1,6 @@
 # DIY Deploy
 
-This project includes ansible scripts for locking down and provisioning a node.js server, and deploying something you can `npm start` to that server. That server can be bare metal, or a Virtual Private Server (VPS). These scripts make it so you never have to shell into your server by hand.
+This project includes ansible scripts for locking down and provisioning a node.js server, and deploying something you can `npm start` to that server. That server can be bare metal, or a Virtual Private Server (VPS). These scripts make it so you never have to shell into your server by hand. You can copy or submodule these scripts into your project, which we detail in the setup steps below.
 
 ## Create or cat ssh keys
 
@@ -42,8 +42,9 @@ Follow the [Ansible Windows Installation Instructions](https://docs.ansible.com/
 
 If you don't have one yet, try a droplet on [digital ocean](https://digitalocean.com/). Something with 1gb of memory should be enough to start you off. Point a domain at that droplet, and replace `privacy-stack-template.com` with that domain in the following instructions. An IP address will work as well.
 
-### Copy or submodule this project into your existing node app
+### Manully copy or submodule this project into your existing node app
 
+If you want to use a submodule:
 ```sh
 cd /path/to/myproject && git submodule add https://github.com/bocoup/deploy.git && git submodule init
 ```
